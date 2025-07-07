@@ -26,7 +26,7 @@ Follow these steps to set up and run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/art-therapy-project.git](https://github.com/YOUR_USERNAME/art-therapy-project.git)
+git clone https://github.com/benedetto-moschella/ai-art-curator.git
 cd art-therapy-project
 ```
 
