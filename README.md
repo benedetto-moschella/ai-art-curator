@@ -36,10 +36,10 @@ This project uses a Conda environment to manage its dependencies. Follow these s
 
 ```bash
 # Create the Conda Environment
-conda create --name art-therapy-env python=3.10 -y
+conda create --name ai-art-curator-env python=3.10 -y
 
 # Activate the Environment
-conda activate art-therapy-env
+conda activate ai-art-curator-env
 
 # Install Dependencies using Pip
 pip install -r requirements.txt
