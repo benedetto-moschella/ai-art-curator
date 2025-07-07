@@ -32,14 +32,16 @@ cd art-therapy-project
 
 ### 2. Set Up the Python Environment
 
-Using a virtual environment is highly recommended. For Conda users, an `environment.yml` file is provided.
+This project uses a Conda environment to manage its dependencies. Follow these steps in your terminal:
 
 ```bash
-# Recommended for Conda users
-conda env create -f environment.yml
+# Create the Conda Environment
+conda create --name art-therapy-env python=3.10 -y
+
+# Activate the Environment
 conda activate art-therapy-env
 
-# Or, for pip users
+# Install Dependencies using Pip
 pip install -r requirements.txt
 ```
 
