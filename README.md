@@ -27,7 +27,7 @@ Follow these steps to set up and run the project locally.
 
 ```bash
 git clone https://github.com/benedetto-moschella/ai-art-curator.git
-cd art-therapy-project
+cd ai-art-curator
 ```
 
 ### 2. Set Up the Python Environment
