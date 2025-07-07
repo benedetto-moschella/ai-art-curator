@@ -1,0 +1,26 @@
+# File: .gitignore
+
+# File di ambiente con le credenziali
+.env
+*.env.*
+
+# Cache e file di sistema di Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambienti virtuali
+venv/
+.venv/
+env/
+
+# Cartelle di dati pesanti e generate
+# (Questo ignora /data/chroma_db)
+data/
+
+# (Questo ignora il tuo dataset di immagini)
+art_dataset/
+
+# (Questo ignora i tuoi blocchi di embedding)
+clip_blocks_output/

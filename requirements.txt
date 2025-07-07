@@ -1,0 +1,11 @@
+# File: requirements.txt
+google-generativeai
+chromadb
+Pillow
+tqdm
+torch
+torchvision
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+python-dotenv # Per gestire le API keys localmente
